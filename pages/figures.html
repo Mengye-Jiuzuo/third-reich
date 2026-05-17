@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人物 - 帝国的毁灭</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-title-group">
+                <h1 class="nav-title">帝国的<span class="nav-accent">毁灭</span></h1>
+                <span class="nav-subtitle">第三帝国兴亡史</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="history.html">历史</a></li>
+                <li><a href="figures.html">人物</a></li>
+                <li><a href="battles.html">战役</a></li>
+                <li><a href="legacy.html">遗产</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="figures-hero">
+        <div class="hero-content">
+            <h2>第三帝国关键人物</h2>
+            <p>从元首到各级将领，这些人物塑造了纳粹德国的命运</p>
+        </div>
+    </section>
+
+    <!-- 人物容器 —— 由 JavaScript 动态渲染 -->
+    <div id="figures-app"></div>
+
+    <!-- 页脚 -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <h3>历史反思</h3>
+            <p>第三帝国的兴起与毁灭，是人类历史上最黑暗的篇章之一。<br>它警示我们：极权主义的危害、战争的残酷，以及和平与民主的可贵。<br>愿历史不再重演。</p>
+            <div class="footer-links">
+                <a href="../index.html">返回首页</a>
+                <a href="history.html">历史时间线</a>
+                <a href="figures.html">人物传记</a>
+                <a href="battles.html">主要战役</a>
+                <a href="legacy.html">遗产影响</a>
+            </div>
+            <div class="footer-note">
+                <p>本网站仅供教育和历史研究目的。所有内容基于历史事实。</p>
+                <p>© 2026 帝国的毁灭项目 | 记住历史，珍视和平</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 背景音乐播放器 -->
+    <div class="music-player">
+        <audio id="bg-music" src="../assets/music/background-music.mp4" loop preload="auto"></audio>
+        <button id="music-toggle" class="music-btn" aria-label="播放/暂停背景音乐">
+            <svg class="music-icon-play" viewBox="0 0 20 20" fill="none">
+                <path d="M6 4l10 6-10 6V4z" fill="currentColor"/>
+            </svg>
+            <svg class="music-icon-pause" viewBox="0 0 20 20" fill="none">
+                <rect x="5" y="4" width="3" height="12" rx="1" fill="currentColor"/>
+                <rect x="12" y="4" width="3" height="12" rx="1" fill="currentColor"/>
+            </svg>
+        </button>
+        <span class="music-status">背景音乐</span>
+    </div>
+
+    <button id="back-to-top" aria-label="回到顶部">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M4 12l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

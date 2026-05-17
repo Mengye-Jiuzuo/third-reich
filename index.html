@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>帝国的毁灭</title>
+
+    <!-- 自己的样式文件 -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-title-group">
+                <h1 class="nav-title">帝国的<span class="nav-accent">毁灭</span></h1>
+                <span class="nav-subtitle">第三帝国兴亡史</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="pages/history.html">历史</a></li>
+                <li><a href="pages/figures.html">人物</a></li>
+                <li><a href="pages/battles.html">战役</a></li>
+                <li><a href="pages/legacy.html">遗产</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 第一部分：旗帜与元首 -->
+    <section class="hero-section">
+        <div class="hero-flag-bg">
+            <img src="assets/images/nazi-flag.webp" alt="">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text-block">
+                <h2>德意志第三帝国</h2>
+                <p class="hero-subtitle">从崛起到毁灭</p>
+                <div class="hero-meta">
+                    <span class="hero-years">1933 — 1945</span>
+                    <span class="hero-meta-divider"></span>
+                    <span class="hero-tagline">十二年的黑暗统治</span>
+                </div>
+            </div>
+            <div class="hero-portrait-wrap">
+                <div class="hero-portrait-frame">
+                    <img src="assets/images/hitler.webp" alt="阿道夫·希特勒">
+                </div>
+                <p class="hero-portrait-caption">阿道夫·希特勒 · 第三帝国元首</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero 到 Timeline 的过渡语 -->
+    <section class="transition-strip">
+        <p>1933年纳粹上台时，德国在欧洲的影响力不过<span class="ts-highlight">方寸之地</span><br>接下来的<span class="ts-highlight">十二年</span>里，战争机器将吞噬整个欧洲</p>
+    </section>
+
+    <!-- 第二部分：纳粹德国势力扩张历程 -->
+    <section class="unified-timeline">
+        <h2>纳粹德国兴亡历程</h2>
+        <p class="ut-subtitle">点击事件查看详情</p>
+        <div class="ut-container">
+            <div class="ut-visual">
+                <img src="assets/images/1933.png" alt="1933年纳粹上台" id="ut-image">
+                <span class="ut-caption" id="ut-caption">1933年 — 希特勒出任总理</span>
+            </div>
+            <div class="ut-list">
+                <button class="ut-item active" data-id="1933">
+                    <span class="ut-year">1933.1</span>
+                    <span class="ut-title">纳粹上台</span>
+                </button>
+                <button class="ut-item" data-id="1936">
+                    <span class="ut-year">1936.3</span>
+                    <span class="ut-title">莱茵兰</span>
+                </button>
+                <button class="ut-item" data-id="1938a">
+                    <span class="ut-year">1938.3</span>
+                    <span class="ut-title">德奥合并</span>
+                </button>
+                <button class="ut-item" data-id="1938b">
+                    <span class="ut-year">1938.9</span>
+                    <span class="ut-title">慕尼黑会议</span>
+                </button>
+                <button class="ut-item" data-id="1939">
+                    <span class="ut-year">1939.9</span>
+                    <span class="ut-title">入侵波兰</span>
+                </button>
+                <button class="ut-item" data-id="1940">
+                    <span class="ut-year">1940.6</span>
+                    <span class="ut-title">西欧征服</span>
+                </button>
+                <button class="ut-item" data-id="1941">
+                    <span class="ut-year">1941.6</span>
+                    <span class="ut-title">巴巴罗萨</span>
+                </button>
+                <button class="ut-item" data-id="1945">
+                    <span class="ut-year">1945.5</span>
+                    <span class="ut-title">帝国覆灭</span>
+                </button>
+            </div>
+        </div>
+        <div class="ut-description">
+            <div class="ut-desc-img">
+                <img src="assets/images/expansion-1933.jpg" alt="" id="ut-desc-img">
+                <span class="ut-desc-caption" id="ut-desc-caption">希特勒第一届内阁合影</span>
+            </div>
+            <div class="ut-desc-text">
+                <h3 id="ut-title">1933年1月 — 纳粹上台</h3>
+                <p id="ut-desc">1933年1月30日，兴登堡任命希特勒为总理。国会纵火案后《授权法》通过，希特勒建立独裁统治，迅速重整军备突破凡尔赛条约限制，为日后的领土扩张奠定军事基础。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 从巅峰到毁灭 -->
+    <section class="downfall-section">
+        <h2>从巅峰到毁灭</h2>
+        <div class="downfall-container">
+            <div class="downfall-phase">
+                <h3>巅峰时期 (1941-1942)</h3>
+                <div class="phase-content">
+                    <div class="phase-item">
+                        <h4>东线攻势</h4>
+                        <p>巴巴罗萨计划初期取得重大胜利，德军深入苏联腹地，莫斯科近在咫尺。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>全球扩张</h4>
+                        <p>轴心国控制欧洲大部分地区，日本在太平洋发动攻势，德国领土达到最大。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>战争经济</h4>
+                        <p>通过掠夺占领区资源，德国经济达到战时高峰，军工生产空前繁荣。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="downfall-phase">
+                <h3>转折之年 (1942-1943)</h3>
+                <div class="phase-content">
+                    <div class="phase-item">
+                        <h4>斯大林格勒战役</h4>
+                        <p>德军在斯大林格勒遭遇毁灭性失败，第6集团军全军覆没，标志东线转折。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>盟军轰炸</h4>
+                        <p>英美空军开始战略轰炸，德国城市和工业设施遭受重创。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>诺曼底登陆</h4>
+                        <p>1944年盟军在法国北部登陆，开辟第二战场，西线崩溃开始。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="downfall-phase">
+                <h3>最终毁灭 (1944-1945)</h3>
+                <div class="phase-content">
+                    <div class="phase-item">
+                        <h4>柏林战役</h4>
+                        <p>苏军攻入柏林，希特勒自杀，第三帝国正式灭亡。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>纽伦堡审判</h4>
+                        <p>战后对纳粹战犯的审判，确立战争罪行和反人类罪的概念。</p>
+                    </div>
+                    <div class="phase-item">
+                        <h4>历史教训</h4>
+                        <p>纳粹的溃败不仅是军事失败，更是极端意识形态的破产——它警示着民主制度的脆弱与极权主义的灾难性后果。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 政治与支持情况 -->
+    <section class="politics-section">
+        <div class="politics-flag-bg">
+            <img src="assets/images/nazi-flag.webp" alt="">
+        </div>
+        <h2>为什么会出现纳粹？</h2>
+        <div class="politics-container">
+            <div class="politics-column left-column">
+                <h3>内部原因</h3>
+                <div class="reason-item">
+                    <h4>魏玛共和国的不稳定</h4>
+                    <p>战后德国政府更迭频繁，经济崩溃叠加街头暴力，民众对民主制度失去信心，转向极端主义寻求出路。</p>
+                </div>
+                <div class="reason-item">
+                    <h4>经济大萧条</h4>
+                    <p>1929年世界经济危机使德国失业率飙至30%，数百万中产一夜返贫，为纳粹提供了大量支持者。</p>
+                </div>
+                <div class="reason-item">
+                    <h4>希特勒的个人魅力</h4>
+                    <p>出色的演讲能力和宣传技巧，精准捕捉了民众的愤怒与恐惧，将混乱转化为个人崇拜。 </p>
+                </div>
+                <div class="reason-item">
+                    <h4>纳粹的组织机器</h4>
+                    <p>完善的基层党组织配合冲锋队——纳粹通过街头暴力与选举两手策略，系统性地夺取了权力。</p>
+                </div>
+            </div>
+            <div class="politics-column right-column">
+                <h3>外部原因</h3>
+                <div class="reason-item">
+                    <h4>凡尔赛条约的屈辱</h4>
+                    <p>巨额赔款、领土割让和"战争罪责"条款让德国人积压了强烈的民族仇恨，纳粹的复仇口号正中靶心。</p>
+                </div>
+                <div class="reason-item">
+                    <h4>国际绥靖政策</h4>
+                    <p>英法对希特勒的扩张一再退让——从莱茵兰到苏台德——给了纳粹德国喘息和扩张的时间与空间。</p>
+                </div>
+                <div class="reason-item">
+                    <h4>共产主义的威胁</h4>
+                    <p>魏玛时期共产党势力壮大，资产阶级和保守派将纳粹视为对抗红色革命的盾牌，从而选择了合作。 </p>
+                </div>
+                <div class="reason-item">
+                    <h4>墨索里尼的先例</h4>
+                    <p>意大利法西斯的成功夺权为希特勒提供了可复制的模板，证明极权主义可以在现代国家中崛起。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 历史统计数据 -->
+    <section class="stats-section">
+        <h2>历史数据统计</h2>
+        <div class="stats-groups">
+            <div class="stats-group">
+                <h3 class="stats-group-title">
+                    <span class="stats-group-line"></span>
+                    战争的代价
+                    <span class="stats-group-line"></span>
+                </h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">5,000万+</div>
+                        <div class="stat-label">二战总伤亡人数</div>
+                        <div class="stat-desc">包括军人和平民，纳粹德国直接或间接造成</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1,200万</div>
+                        <div class="stat-label">大屠杀遇难者</div>
+                        <div class="stat-desc">系统性种族灭绝政策的受害者</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">800万+</div>
+                        <div class="stat-label">苏联红军阵亡</div>
+                        <div class="stat-desc">东线战场的巨大牺牲</div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-divider"></div>
+            <div class="stats-group">
+                <h3 class="stats-group-title">
+                    <span class="stats-group-line"></span>
+                    帝国的尺度
+                    <span class="stats-group-line"></span>
+                </h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">12年</div>
+                        <div class="stat-label">第三帝国存续时间</div>
+                        <div class="stat-desc">从1933年到1945年的黑暗统治</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">600万km²</div>
+                        <div class="stat-label">最大领土扩张</div>
+                        <div class="stat-desc">1942年巅峰时期的控制范围</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">60亿帝国马克</div>
+                        <div class="stat-label">战争总支出</div>
+                        <div class="stat-desc">相当于今天的数万亿美元</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 历史引语 -->
+    <section class="quote-section">
+        <blockquote class="quote-block">
+            <p class="quote-text">"忘记历史的人，注定要重蹈覆辙。"</p>
+            <cite class="quote-source">乔治·桑塔亚纳《理性的生命》</cite>
+        </blockquote>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <h3>关于《帝国的毁灭》</h3>
+            <p>本网站致力于记录和反思纳粹德国从崛起到毁灭的历史进程。通过时间线、人物传记和战役分析，帮助人们理解这段黑暗的历史。</p>
+            <div class="footer-links">
+                <a href="pages/history.html">历史时间线</a>
+                <a href="pages/figures.html">关键人物</a>
+                <a href="pages/battles.html">主要战役</a>
+                <a href="pages/legacy.html">历史遗产</a>
+            </div>
+            <div class="footer-note">
+                <p>本网站仅供教育和历史研究目的。所有内容基于历史事实，图片来源于公开资料。</p>
+                <p>&copy; 2026 历史教育网站 | 记住历史，珍视和平</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 背景音乐播放器 -->
+    <div class="music-player">
+        <audio id="bg-music" src="assets/music/background-music.mp4" loop preload="auto"></audio>
+        <button id="music-toggle" class="music-btn" aria-label="播放/暂停背景音乐">
+            <svg class="music-icon-play" viewBox="0 0 20 20" fill="none">
+                <path d="M6 4l10 6-10 6V4z" fill="currentColor"/>
+            </svg>
+            <svg class="music-icon-pause" viewBox="0 0 20 20" fill="none">
+                <rect x="5" y="4" width="3" height="12" rx="1" fill="currentColor"/>
+                <rect x="12" y="4" width="3" height="12" rx="1" fill="currentColor"/>
+            </svg>
+        </button>
+        <span class="music-status">背景音乐</span>
+    </div>
+
+    <!-- 回到顶部 -->
+    <button id="back-to-top" aria-label="回到顶部">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M4 12l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <!-- 脚本 -->
+    <script src="js/app.js"></script>
+</body>
+</html>
